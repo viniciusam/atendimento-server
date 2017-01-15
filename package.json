@@ -1,0 +1,20 @@
+{
+  "name": "atendimento-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon -e js,json --exec node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.1",
+    "express": "^4.14.0",
+    "mongodb": "^2.2.19"
+  },
+  "devDependencies": {
+    "nodemon": "^1.11.0"
+  }
+}
